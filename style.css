@@ -16,8 +16,8 @@
 }
 .btn{
     background-color: #9eb73d;
-    width: 170px;
-    height: 60px;
+    width: 120px;
+    height: 50px;
     color: ivory;
     border-radius: 10px;
     font-weight: bold;
@@ -32,4 +32,8 @@
 }
 .font h5 p{
     color: #363958;
+}
+.bottom{
+    height: 180px;
+    background-color:#232f3e;
 }

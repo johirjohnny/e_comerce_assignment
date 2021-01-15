@@ -17,7 +17,7 @@
         <section class="container-fluid ">
             <nav class="navbar navbar-expand-lg navbar-light bg-light ">
                 <div class="container-fluid">
-                <a class="navbar-brand nav_logo" href="#" ><img src="logo//Group 33072.png" alt=""></a>
+                <a id="back" class="navbar-brand nav_logo" href="#main " ><img src="logo//Group 33072.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -25,16 +25,16 @@
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul class="navbar-nav nav_text">
                             <li class="nav-item">
-                                <a class="nav-link active fw-bolder px-3" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active fw-bolder px-3" aria-current="page" href="#main">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active fw-bolder px-3" href="#">Product</a>
+                                <a class="nav-link active fw-bolder px-3" href="#Home">Product</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active fw-bolder px-3" href="#">About us</a>
+                                <a class="nav-link active fw-bolder px-3" href="#about">About us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active fw-bolder px-3" href="#" >Contact us</a>
+                                <a class="nav-link active fw-bolder px-3" href="#about" >Contact us</a>
                             </li>
                         </ul>
                     </div>    
@@ -47,7 +47,7 @@
         <section class="mt-5">
                 <div class="row ">
                   <div class="col front_section_text">
-                    <h1>
+                    <h1 id="main">
                         Be the Penguins <br> <span class=" front_section_text_2nd">of Winter </span> 
                     </h1>
                     <p class="fst-normal" style="color: dimgrey;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga dolores quis nemo obcaecati aliquid temporibus labore tempora facere.
@@ -56,13 +56,13 @@
                     <button class="btn btn"> <i class="fas fa-shopping-cart"></i> Buy Now</button>
                   </div>
                   <div class="col front_section_image">
-                    <img src="logo/green.png" alt="">
+                    <img src="image/new_girl.png" alt="">
                   </div>
                 </div>
         </section>
 
         <section class=" container mt-5">
-            <h1 style="color: #363958; font-weight: 700;" >WOMAN JACKET</h1>
+            <h1 id="Home" style="color: #363958; font-weight: 700;" >WOMAN JACKET</h1>
             <div class="row row-cols-1 row-cols-md-3 gx-4">
                     <div class="col-md-4">
                         <div class="p-5 ">
@@ -208,9 +208,37 @@
                 </div>
             </div>
         </section>
-
    </main>
-
+<footer class=" text-center text-white" style="background-color:#232f3e ; ">
+    <section class="mt-5">
+        <a href="#main" style="background-color: #37475a;" class="d-block p-2 text-white  text-decoration-none text-center ">Back To the Top</a>
+            <div class="  bottom d-flex justify-content-around text-white ">
+                <div>
+                    <h5 id="about">Get to Know Us</h5>
+                    <small>Careers <br></small>
+                    <small>Blog <br></small>
+                    <small>About Penguin Fashion <br></small>
+                </div> 
+                <div>
+                    <h5>	
+                        Make Money with Us
+                    </h5>
+                    <small>Advertise Your Products <br></small>
+                    <small>Sell products on Amazon <br></small>
+                </div>  
+                <div>
+                    <h5>	
+                        Let Us Help You
+                    </h5>
+                    <small>Your Account <br></small>
+                    <small>Your Orders <br></small>
+                    <small>Shipping Rates & Policies <br></small>
+                </div> 
+            </div>
+    </section>
+    <small>© 2009 Woofer Dog Corporation</small>
+</footer>
+    
     <script src="js/bootstrap.min.js"></script>
     
 </body>
