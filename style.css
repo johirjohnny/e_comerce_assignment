@@ -1,0 +1,35 @@
+
+.nav_logo img {
+    width:200px;
+}
+.front_section_image img{
+    width: 400px;
+}
+.front_section_text h1{
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color:#fabe4c;
+}
+.front_section_text_2nd{
+    color: #363958;
+}
+.btn{
+    background-color: #9eb73d;
+    width: 170px;
+    height: 60px;
+    color: ivory;
+    border-radius: 10px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+.man_jacket img{
+    border-radius: 20px;
+    margin: 0%;
+    background-color:#f1f1f1;
+    width: 300px;
+    height: 400px;
+}
+.font h5 p{
+    color: #363958;
+}
